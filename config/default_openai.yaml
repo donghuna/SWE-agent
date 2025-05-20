@@ -1,8 +1,9 @@
 agent:
   model:
     # name: together_ai/meta-llama/Llama-4-Scout-17B-16E-Instruct
-    name: together_ai/meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8
-    per_instance_cost_limit: 0.10
+    # name: openai/meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8
+    name: openai/gpt-4o
+    per_instance_cost_limit: 0.40
     max_input_tokens: 0
     temperature: 0.4
     top_p: 0.7
